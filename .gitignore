@@ -1,0 +1,400 @@
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+docs/.doctrees/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================================
+# Poetry
+# ============================================================================
+
+# Poetry local config
+poetry.toml
+
+# Poetry virtual environments (if not using in-project)
+# Uncomment if you don't want to track poetry's virtualenv
+# .venv/
+
+# ============================================================================
+# IDEs and Editors
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.vim/
+.vimrc.local
+
+# Emacs
+*~
+\#*\#
+.\#*
+.dir-locals.el
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# Atom
+.atom/
+
+# JetBrains
+.idea/
+*.iml
+out/
+
+# ============================================================================
+# Operating Systems
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# GitHub Specific
+# ============================================================================
+
+# GitHub Actions local testing
+.act/
+
+# GitHub Codespaces
+.devcontainer/
+
+# ============================================================================
+# LilAgent Project Specific
+# ============================================================================
+
+# Environment configuration (contains secrets!)
+.env
+.env.local
+.env.*.local
+
+# Generated output directories
+output/
+work-dir/
+test-output/
+/tmp/
+
+# Agent working directories
+lilagent-output/
+*-output/
+
+# Temporary specification files
+temp_spec.md
+*.tmp.md
+
+# Generated package directories (from tests)
+/calculator/
+/simple_calculator/
+test-*/
+
+# LLM conversation logs (if implemented)
+conversations/
+agent-logs/
+
+# Checkpoint files (if implemented)
+checkpoints/
+.checkpoints/
+
+# ============================================================================
+# Documentation Build Artifacts
+# ============================================================================
+
+# MARP generated files
+docs/*.pdf
+docs/*.html
+docs/*.pptx
+
+# Sphinx builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+
+# General temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Lock files (except poetry.lock which should be tracked)
+*.lock
+!poetry.lock
+
+# ============================================================================
+# CI/CD
+# ============================================================================
+
+# Coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Benchmark results
+benchmarks/
+.benchmarks/
+
+# ============================================================================
+# Security
+# ============================================================================
+
+# Never commit these!
+*.pem
+*.key
+*.cert
+*.crt
+secrets.yaml
+secrets.json
+credentials.json
+.secrets/
+
+# API keys and tokens
+*_token.txt
+*_key.txt
+api_keys.txt
+
+# ============================================================================
+# Database
+# ============================================================================
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Database dumps
+*.sql
+*.dump
+
+# ============================================================================
+# Logs and Debugging
+# ============================================================================
+
+# Application logs
+logs/
+*.log
+log.txt
+debug.log
+error.log
+
+# Debug files
+.debug/
+debug/
+*.debug
+
+# ============================================================================
+# Build and Release
+# ============================================================================
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Release archives
+*.tar.gz
+*.zip
+*.tar
+*.tgz
+
+# ============================================================================
+# Node (if using for any tooling)
+# ============================================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================================================
+# Misc
+# ============================================================================
+
+# Backup files from package managers
+*.orig
+
+# EditorConfig
+!.editorconfig
+
+# Keep these files
+!.gitkeep
+!.github/
